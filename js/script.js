@@ -15,8 +15,6 @@ function addPlayerCaed(element) {
   }
 }
 
-// convart string type data in number
-
 function convartToNumber(event) {
   const eventString = event.value;
   const eventNumber = parseFloat(eventString);
@@ -33,7 +31,7 @@ function error(event) {
   }
 }
 
-//calculate to got plear expenses.
+//expenses calculate.
 document.getElementById("Calculate").addEventListener("click", function () {
   const perPlayerAmmountFild = document.getElementById("Per-Player-amaount");
   error(perPlayerAmmountFild);
@@ -48,7 +46,7 @@ document.getElementById("Calculate").addEventListener("click", function () {
   playerExpenses.innerText = allPlayerAmaount;
 });
 
-//total calculate
+//total
 document
   .getElementById("Calculate-total")
   .addEventListener("click", function () {

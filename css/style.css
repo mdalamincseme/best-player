@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300&family=Lobster&family=Manrope:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +7,9 @@
   width: 1250px;
 }
 
-/*----------------
-    headder strat
-------------------*/
+/*--------------------------
+    headder strat here 
+---------------------------*/
 .header {
   height: 700px;
   width: 100%;
@@ -55,9 +54,9 @@
   letter-spacing: 3px;
 }
 
-/*----------------
-    headder End 
-------------------*/
+/*-------------------------
+    headder End here
+---------------------------*/
 
 .card-player {
   height: 400px;
